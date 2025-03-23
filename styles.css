@@ -1,0 +1,118 @@
+/* Estilos Generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fc4254;
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e55a00;
+}
+
+body section {
+    height: 85vh;
+}
+
+/* Header */
+.header {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Sección Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero-content {
+    max-width: 500px;
+    text-align: left;
+}
+
+.hero-image {
+    background-color: #ff6699;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Sección Beneficios */
+.benefits {
+    background-color: white;
+    color: #4b2198;
+    padding: 50px 20px;
+}
+
+.benefit-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.benefit-item {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+    color: #4b2198;
+}
+
+/* Sección Instructora */
+.instructor {
+    padding: 50px 20px;
+}
+
+.instructor-image {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* Formulario */
+.registration {
+    background-color: white;
+    color: #4b2198;
+    padding: 50px 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
