@@ -63,6 +63,7 @@ button:hover {
 
 .header nav a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 .header nav a:visited {
