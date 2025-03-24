@@ -1,11 +1,11 @@
 /* Estilos Generales */
 :root {
   --torch-red-color: #fc4254;
-  --secondary-color: #fbffa8;
-  --tercery-color: #e55a00;
+  --light-lemon-color: #fbffa8;
+  --burnt-orange-color: #e55a00;
   --text-color: #4b2198;
   --hover-color: #ffffff;
-  --button-color: #e55a00;
+  --button-color: var(--burnt-orange-color);
   --background-color: #ececec;
   --white-color: #ffffff;
 }
@@ -25,6 +25,11 @@ body {
 
 body section {
   height: 80vh;
+}
+
+body section [class*="-content"] {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 h1,
@@ -48,15 +53,21 @@ button:hover {
 
 /* Header */
 .header {
+  height: 34px;
+}
+
+.header nav {
   padding: 8px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   background-color: var(--white-color);
+  /* position: fixed; */
+  width: 100%;
 }
 
 .header nav a {
   text-decoration: none;
-} 
+}
 
 /* Sección Hero */
 .hero {
@@ -107,7 +118,7 @@ button:hover {
 /* Sección Instructora */
 .instructor {
   padding: 50px 20px;
-  background-color: var(--secondary-color);
+  background-color: var(--light-lemon-color);
   color: var(--text-color);
 }
 
