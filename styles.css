@@ -52,21 +52,21 @@ button:hover {
 }
 
 /* Header */
-.header {
-  height: 34px;
-}
-
 .header nav {
-  padding: 8px;
+  padding: 8px 0;
   font-size: 16px;
   font-weight: bold;
   background-color: var(--white-color);
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
 }
 
 .header nav a {
   text-decoration: none;
+}
+
+.header nav a:visited {
+  color: var(--text-color);
 }
 
 /* Sección Hero */
@@ -78,7 +78,7 @@ button:hover {
   padding: 50px 20px;
 }
 
-.hero-content {
+.hero .hero-content {
   max-width: 500px;
   text-align: left;
 }
